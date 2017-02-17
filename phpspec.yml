@@ -1,0 +1,6 @@
+suites:
+  default:
+    namespace: Hexarchium\Generator
+    psr4_prefix: Hexarchium\Generator
+extensions:
+  Cjm\PhpSpec\Extension\TypeHintedMethodsExtension: ~

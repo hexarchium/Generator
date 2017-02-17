@@ -1,0 +1,23 @@
+{
+  "name": "hexarchium/generator",
+  "description": "Main project that generate hexagonal domain",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "time": "2017-02-17",
+  "require": {
+    "hexarchium/core-domain": "^1.0@dev",
+    "hexarchium/code-domain": "^0.4@dev",
+    "hexarchium/zend-code-integration": "^0.3@dev",
+    "league/tactician-bundle": "^0.4"
+  },
+  "require-dev": {
+    "behat/behat": "^3.3",
+    "phpspec/phpspec": "^3.2",
+    "ciaranmcnulty/phpspec-typehintedmethods": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hexarchium\\Generator\\": "src/"
+    }
+  }
+}
